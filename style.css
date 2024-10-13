@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+}
+
+.navmain {
+    display: flex;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 70px;
+    padding-top: 13px;
+    justify-content: space-around;
+}
+.navimage{
+    margin-top: 10px;
+    margin-right:270px;
+}
+
+.imglink {
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+   
+    
+    top: 19px;
+    right: 225px;
+}
+.imglink::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: width 0.4s ease-in-out 0.2s;
+}
+
+.imglink:hover::after {
+width: 69%;
+}
+
+
+
+.navlink {
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    top: 19px;
+    right: 225px;
+}
+
+.navlink::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: width 0.4s ease-in-out 0.2s;
+}
+
+.navlink:hover::after {
+    width: 100%;
+}
+.navlinkcontainer{
+    display: flex;
+    gap: 50px;
+}
+
+.button {
+    height: 55px;
+    width: 160px;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    padding: 12px 24px;
+    background-color: #000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: #25D366;
+    transition: color .33s linear .5s, border-color ease-out .5s, background-color .33s linear 0s;
+}
+
+.button::before {
+    color: rgb(255, 255, 255);
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(1) translateY(67px);
+    transition: transform 1.2s cubic-bezier(.66, .00, .34, 1.00);
+    z-index: 0;
+}
+
+.button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.button:hover {
+    color: white;
+    transition: color 1.2s ease-out 0.5s;
+}
+
+.button span {
+    position: relative;
+    z-index: 1;
+}
