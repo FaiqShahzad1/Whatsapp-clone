@@ -6,11 +6,6 @@
     background-color: #FCF5EB;
 }
 
-nav {
-    
-    background-color: #FCF5EB;
-}
-
 .navmain {
     display: flex;
     position: fixed;
@@ -27,8 +22,6 @@ nav {
     margin-right: 270px;
 }
 
-
-
 .imglink::after {
     content: '';
     position: absolute;
@@ -43,8 +36,6 @@ nav {
 .imglink:hover::after {
     width: 69%;
 }
-
-
 
 .navlink {
     position: relative;
@@ -126,8 +117,6 @@ nav {
     z-index: 1;
 }
 
-
-
 .link:hover::after {
     width: 70%;
 }
@@ -152,7 +141,6 @@ nav {
     position: relative;
     top: 125px;
     border-radius: 60px;
-
 }
 
 .div {
@@ -160,7 +148,6 @@ nav {
 }
 
 .img1 {
-
     left: 900px;
     top: 350px;
 }
@@ -204,14 +191,56 @@ nav {
     font-weight: 400;
     color: white;
 }
-.p{
+
+.p {
     left: 250px;
     top: 360px;
     color: white;
     font-size: 18px;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.b1{
+
+.b1 {
     left: 250px;
     top: 480px;
+}
+
+.p1 {
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #5E5E5E;
+    top: 790px;
+    right: 25px;
+}
+
+.row1 {
+    display: flex;
+    position: relative;
+    top: 1000px;
+    justify-content: center;
+}
+
+.h1 {
+    top: 300px;
+    font-size: 50px;
+    color: #1C1E21;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+.row2 {
+    display: flex;
+    position: relative;
+    top: 1400px;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 400px; 
+    right: 350px;
 }
