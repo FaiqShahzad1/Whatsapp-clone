@@ -19,6 +19,7 @@ nav {
     height: 70px;
     padding-top: 13px;
     justify-content: space-around;
+    z-index: 2;
 }
 
 .navimage {
@@ -141,18 +142,77 @@ nav {
     color: #000;
     text-decoration: none;
 }
+
 .mainbackimage {
-    background-image: url(images/backgroung\ img.png );
+    padding-bottom: 180px;
+    background-image: url(images/download\ 1.png);
     background-position: center;
     height: 600px;
-    
+    z-index: 1;
     background-repeat: no-repeat;
     position: relative;
     top: 125px;
+    border-radius: 60px;
+
+}
+
+.div {
+    position: absolute;
 }
 
 .img1 {
-    position: absolute;
+
     left: 900px;
-    top: 300px;
+    top: 350px;
+}
+
+.emoji {
+    left: 900px;
+    top: 565px;
+}
+
+.img2 {
+    left: 900px;
+    top: 290px;
+}
+
+.img3 {
+    left: 900px;
+    top: 85px;
+}
+
+.emoji1 {
+    left: 900px;
+    top: 110px;
+}
+
+.img4 {
+    right: 250px;
+    top: 115px;
+}
+
+.img5 {
+    right: 260px;
+    bottom: 115px;
+}
+
+.h {
+    left: 250px;
+    top: 160px;
+    font-size: 80px;
+    letter-spacing: -0.04em;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.p{
+    left: 250px;
+    top: 360px;
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.b1{
+    left: 250px;
+    top: 480px;
 }
