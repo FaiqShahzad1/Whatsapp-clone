@@ -7,7 +7,7 @@
 }
 
 nav {
-    /* transition: ; */
+    
     background-color: #FCF5EB;
 }
 
@@ -53,7 +53,6 @@ nav {
     color: black;
     font-size: 16px;
     letter-spacing: -0.01em;
-
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     overflow: hidden;
     top: 19px;
