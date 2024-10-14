@@ -57,7 +57,7 @@ nav {
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     overflow: hidden;
     top: 19px;
-    right: 225px;
+    right: 20%;
 }
 
 .navlink::after {
