@@ -136,111 +136,148 @@
     background-image: url(images/download\ 1.png);
     background-position: center;
     height: 600px;
-    z-index: 1;
     background-repeat: no-repeat;
-    position: relative;
-    top: 125px;
     border-radius: 60px;
+    padding-top: 200px;
 }
 
-.div {
-    position: absolute;
-}
-
-.img1 {
-    left: 900px;
-    top: 350px;
-}
-
-.emoji {
-    left: 900px;
-    top: 565px;
-}
-
-.img2 {
-    left: 900px;
-    top: 290px;
-}
-
-.img3 {
-    left: 900px;
-    top: 85px;
-}
-
-.emoji1 {
-    left: 900px;
-    top: 110px;
-}
-
-.img4 {
-    right: 250px;
-    top: 115px;
-}
-
-.img5 {
-    right: 260px;
-    bottom: 115px;
-}
-
-.h {
-    left: 250px;
-    top: 160px;
-    font-size: 80px;
-    letter-spacing: -0.04em;
+.h1style {
+    color: #FFFFFF;
+    font-size: 79.7px;
+    letter-spacing: -0.03em;
+    line-height: 1;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
-    color: white;
 }
 
-.p {
-    left: 250px;
-    top: 360px;
+.h1position {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    float: left;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.p1position {
+    float: left;
+    /* margin-left: 250px; */
+    margin-top: 20px;
+}
+
+.p1style {
     color: white;
+    font-weight: 400;
     font-size: 18px;
+    letter-spacing: -0.01em;
+    line-height: 22px;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+
 }
 
-.b1 {
-    left: 250px;
-    top: 480px;
+.button1 {
+    margin-top: 83px;
 }
 
-.p1 {
-    font-size: 12px;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #5E5E5E;
-    top: 790px;
-    right: 25px;
+.imgd {
+    width: 85%;
 }
 
-.row1 {
+.img1position {
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 13px;
+
+}
+
+.emojiposition {
+    display: flex;
+
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.flot-right {
+    float: right;
+}
+
+.img2position {
+    float: right;
     display: flex;
     position: relative;
-    top: 1000px;
-    justify-content: center;
 }
 
-.h1 {
-    top: 300px;
-    font-size: 50px;
-    color: #1C1E21;
-    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+.emoji2position {
+    display: flex;
+    position: absolute;
+    top: 215px;
+}
+
+.one {
     text-align: center;
+    padding-bottom: 50px;
+}
+
+.h2 {
+    letter-spacing: -0.03em;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1C1E21;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.h3 {
+    color: #1C1E21;
+    font-size: 70px;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.03em;
+    line-height: 1;
 }
 
-.row2 {
+.div2 {
     display: flex;
-    position: relative;
-    top: 1400px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.row3 {
+/* .div3 {
     display: flex;
-    position: absolute;
-    justify-content: center;
-    top: 400px; 
-    right: 350px;
+    justify-content: space-around;
+} */
+
+.div4 {
+    margin-left: 220px;
+    padding-bottom: 200px;
+
+}
+
+.p2 {
+    font-size: 16px;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.a2 {
+    color: black;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration-color: #73DF97;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.a2:hover {
+    color: #73DF97;
+}
+
+.arrow {
+    vertical-align: middle;
 }
