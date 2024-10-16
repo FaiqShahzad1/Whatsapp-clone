@@ -260,7 +260,8 @@
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
-.a2dec{
+
+.a2dec {
     color: black;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -274,10 +275,6 @@
 
 .a2:hover {
     color: #73DF97;
-}
-
-.arrow {
-    vertical-align: middle;
 }
 
 .img3 {
@@ -310,13 +307,15 @@
 .font1 {
     font-size: 18px;
     line-height: 25px;
-    font-family: Helvetica  Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.a3dec{
+
+.a3dec {
     color: white;
     font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
 }
-.arrow2{
-    color: white;
+
+.back2 {
+    background-image: url(images/back2.png);
 }
